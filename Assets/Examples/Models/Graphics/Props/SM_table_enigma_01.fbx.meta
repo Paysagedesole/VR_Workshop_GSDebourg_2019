@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 7d5b3b789841d0e469f8881d2c430f82
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: center_1
+    100002: center_2
+    100004: center_3
+    100006: center_4
+    100008: center_platform
+    100010: planet1
+    100012: planet2
+    100014: planet3
+    100016: planet4
+    100018: planet5
+    100020: ring1
+    100022: ring2
+    100024: ring3
+    100026: ring4
+    100028: ring5
+    100030: //RootNode
+    400000: center_1
+    400002: center_2
+    400004: center_3
+    400006: center_4
+    400008: center_platform
+    400010: planet1
+    400012: planet2
+    400014: planet3
+    400016: planet4
+    400018: planet5
+    400020: ring1
+    400022: ring2
+    400024: ring3
+    400026: ring4
+    400028: ring5
+    400030: //RootNode
+    2100000: M_table_enigma_01
+    2100002: M_hologram_01
+    2300000: center_1
+    2300002: center_2
+    2300004: center_3
+    2300006: center_4
+    2300008: center_platform
+    2300010: planet1
+    2300012: planet2
+    2300014: planet3
+    2300016: planet4
+    2300018: planet5
+    2300020: ring1
+    2300022: ring2
+    2300024: ring3
+    2300026: ring4
+    2300028: ring5
+    2300030: //RootNode
+    3300000: center_1
+    3300002: center_2
+    3300004: center_3
+    3300006: center_4
+    3300008: center_platform
+    3300010: planet1
+    3300012: planet2
+    3300014: planet3
+    3300016: planet4
+    3300018: planet5
+    3300020: ring1
+    3300022: ring2
+    3300024: ring3
+    3300026: ring4
+    3300028: ring5
+    3300030: //RootNode
+    4300000: SM_table_enigma_01
+    4300002: ring1
+    4300004: planet5
+    4300006: ring2
+    4300008: planet4
+    4300010: ring3
+    4300012: planet3
+    4300014: ring4
+    4300016: planet2
+    4300018: ring5
+    4300020: planet1
+    4300022: center_1
+    4300024: center_2
+    4300026: center_4
+    4300028: center_3
+    4300030: center_platform
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hologram_01
+    second: {fileID: 2100000, guid: c74e6ad2533da58499c795191d8cbc0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_table_enigma_01
+    second: {fileID: 2100000, guid: 3073c2f1ef7ca324a9e2b8e797522310, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

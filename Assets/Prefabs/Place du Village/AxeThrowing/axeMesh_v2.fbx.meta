@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: c7c4c618f77695944b3919e163a7dc18
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: hache1:pCylinder3
+    100004: hache1:polySurface100
+    100006: hache1:polySurface101
+    100008: hache1:polySurface102
+    100010: hache1:polySurface103
+    100012: hache1:polySurface104
+    100014: hache1:polySurface105
+    100016: hache1:polySurface106
+    100018: hache1:polySurface107
+    100020: hache1:polySurface108
+    100022: hache1:polySurface109
+    100024: hache1:polySurface110
+    100026: hache1:polySurface111
+    100028: hache1:polySurface3
+    100030: hache1:polySurface4
+    100032: hache1:polySurface92
+    100034: hache1:polySurface93
+    100036: hache1:polySurface94
+    100038: hache1:polySurface95
+    100040: hache1:polySurface96
+    100042: hache1:polySurface97
+    100044: hache1:polySurface98
+    100046: hache1:polySurface99
+    100048: hache1:polySurface99 1
+    100050: hache1:pPlane1
+    100052: hache1:pPlane2
+    100054: hache1:pPlane3
+    100056: hache1:pPlane5
+    100058: hache1:transform10
+    100060: hache1:transform11
+    100062: hache1:transform12
+    100064: hache1:transform13
+    100066: hache1:transform14
+    100068: hache1:transform15
+    100070: hache1:transform16
+    100072: hache1:transform17
+    100074: hache1:transform18
+    100076: hache1:transform19
+    100078: hache1:transform2
+    100080: hache1:transform20
+    100082: hache1:transform21
+    100084: hache1:transform22
+    100086: hache1:transform23
+    100088: hache1:transform24
+    100090: hache1:transform25
+    100092: hache1:transform3
+    100094: hache1:transform4
+    100096: hache1:transform5
+    100098: hache1:transform6
+    100100: hache1:transform7
+    100102: hache1:transform8
+    100104: hache1:transform9
+    400000: //RootNode
+    400002: hache1:pCylinder3
+    400004: hache1:polySurface100
+    400006: hache1:polySurface101
+    400008: hache1:polySurface102
+    400010: hache1:polySurface103
+    400012: hache1:polySurface104
+    400014: hache1:polySurface105
+    400016: hache1:polySurface106
+    400018: hache1:polySurface107
+    400020: hache1:polySurface108
+    400022: hache1:polySurface109
+    400024: hache1:polySurface110
+    400026: hache1:polySurface111
+    400028: hache1:polySurface3
+    400030: hache1:polySurface4
+    400032: hache1:polySurface92
+    400034: hache1:polySurface93
+    400036: hache1:polySurface94
+    400038: hache1:polySurface95
+    400040: hache1:polySurface96
+    400042: hache1:polySurface97
+    400044: hache1:polySurface98
+    400046: hache1:polySurface99
+    400048: hache1:polySurface99 1
+    400050: hache1:pPlane1
+    400052: hache1:pPlane2
+    400054: hache1:pPlane3
+    400056: hache1:pPlane5
+    400058: hache1:transform10
+    400060: hache1:transform11
+    400062: hache1:transform12
+    400064: hache1:transform13
+    400066: hache1:transform14
+    400068: hache1:transform15
+    400070: hache1:transform16
+    400072: hache1:transform17
+    400074: hache1:transform18
+    400076: hache1:transform19
+    400078: hache1:transform2
+    400080: hache1:transform20
+    400082: hache1:transform21
+    400084: hache1:transform22
+    400086: hache1:transform23
+    400088: hache1:transform24
+    400090: hache1:transform25
+    400092: hache1:transform3
+    400094: hache1:transform4
+    400096: hache1:transform5
+    400098: hache1:transform6
+    400100: hache1:transform7
+    400102: hache1:transform8
+    400104: hache1:transform9
+    2100000: hache1_blinn1
+    2100002: hache1_blinn3
+    2100004: hache1_lambert2
+    2100006: hache1_blinn2
+    2100008: hache1_lambert3
+    2100010: hache1_lambert5
+    2300000: hache1:polySurface99
+    3300000: hache1:polySurface99
+    4300000: hache1:polySurface99
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

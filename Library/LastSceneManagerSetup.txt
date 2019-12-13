@@ -1,0 +1,10 @@
+sceneSetups:
+- path: Assets/Examples/Scenes/Example_Interactions.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/Examples/Scenes/Showcase.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/PlaceVillage.unity
+  isLoaded: 1
+  isActive: 0

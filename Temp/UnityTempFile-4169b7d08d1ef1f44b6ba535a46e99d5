@@ -1,0 +1,679 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp-Editor.dll
+-nostdlib
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript.dll
+-r:Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll
+-r:Library/ScriptAssemblies/Unity.ProGrids.dll
+-r:Library/ScriptAssemblies/Unity.ProGrids.Editor.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:Library/ScriptAssemblies/Oculus.VR.Editor.dll
+-r:Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.dll
+-r:Library/ScriptAssemblies/Oculus.VR.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/UnityEditor.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\Managed/Unity.Locator.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"D:/GameSup/Unity Editors/2018.2.20f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:C:/Users/GS-Prepa-Master/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/AssetIdRemapUtility/Editor/AssetIdRemapUtility.dll
+-r:C:/Users/GS-Prepa-Master/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderCore.dll
+-r:C:/Users/GS-Prepa-Master/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderMeshOps.dll
+-r:C:/Users/GS-Prepa-Master/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/KdTreeLib.dll
+-r:C:/Users/GS-Prepa-Master/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/pb_Stl.dll
+-r:C:/Users/GS-Prepa-Master/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/Poly2Tri.dll
+-r:C:/Users/GS-Prepa-Master/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Editor/ProBuilderEditor.dll
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"D:\GameSup\Unity Editors\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_20
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:AMPLIFY_SHADER_EDITOR
+-define:VRTK_DEFINE_OCULUS_UTILITIES_1_12_0_OR_NEWER
+-define:VRTK_DEFINE_SDK_OCULUS
+-define:VRTK_DEFINE_SDK_OCULUS_AVATAR
+-define:VRTK_DEFINE_SDK_STEAMVR
+-define:VRTK_DEFINE_STEAMVR_PLUGIN_1_2_1_OR_NEWER
+-define:VRTK_DEFINE_STEAMVR_PLUGIN_1_2_2_OR_NEWER
+-define:VRTK_VERSION_3_3_0
+-define:VRTK_VERSION_3_3_0_OR_NEWER
+-define:VRTK_VERSION_3_1_0_OR_NEWER
+-define:VRTK_VERSION_3_2_0_OR_NEWER
+-define:VRTK_VERSION_3_2_1_OR_NEWER
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Actions/ActionData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Actions/ActionLog.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Actions/ActionSequence.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Constants.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/CustomDrawers/EditableIf.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/DoCreateFunction.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/EditorOptions.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Graphs/NodeGrid.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Graphs/ParentGraph.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/AmplifyShaderEditorWindow.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/AmplifyShaderFunction.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/AmplifyShaderFunctionEditor.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/AutoPanData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/Clipboard.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/ConfirmationWindow.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/ConsoleLogWindow.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/ContextMenuItem.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/CustomStylesContainer.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/DebugConsoleWindow.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/DragAndDropTool.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/DuplicatePreventionBuffer.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/GraphContextMenu.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/MenuParent.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/NodeParametersWindow.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/NodeWireReferencesUtils.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/Palette/ContextPalette.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/Palette/PaletteParent.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/Palette/PalettePopUp.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/Palette/PaletteWindow.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/PortLegendInfo.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/SceneSaveCallback.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/ShaderEditorModeWindow.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/ShaderLibrary.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/Tools/ToolsMenuButton.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/Tools/ToolsMenuButtonParent.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/Tools/ToolsMenuButtonSep.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Menu/Tools/ToolsWindow.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackColor.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackFloat.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackInt.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackMatrix4x4.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackString.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackTexture.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackVariable.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackVector2.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackVector3.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/FallbackVector4.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Native/IFallbackVars.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/CommentaryNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ColorNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/GlobalArrayNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/IntNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/Matrix3X3Node.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/Matrix4X4Node.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/MatrixParentNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/PiNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/PropertyNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/RangedFloatNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/CameraAndScreen/CameraProjectionNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/CameraAndScreen/CameraWorldClipPlanes.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/CameraAndScreen/OrthoParams.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/CameraAndScreen/ProjectionParams.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/CameraAndScreen/ScreenParams.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/CameraAndScreen/WorldSpaceCameraPos.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/CameraAndScreen/ZBufferParams.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/ConstantShaderVariable.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/ConstVecShaderVariable.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/FogAndAmbient/FogAndAmbientColorsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/FogAndAmbient/FogParamsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/CustomStandardSurface.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/IndirectDiffuseLighting.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/IndirectSpecularLight.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/LightAttenuation.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/LightColorNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Lighting/WorldSpaceLightPos.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/ShaderVariablesNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Time/CosTime.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Time/DeltaTime.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Time/SimpleTimeNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Time/SinTimeNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Time/TimeNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/CameraToWorldMatrix.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/InverseTranspMVMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/InverseViewMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/MMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/MVMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/MVPMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/ObjectToWorldMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/ProjectionMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/Texture0MatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/Texture1MatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/Texture2MatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/Texture3MatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/TransformDirectionNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/TransformPositionNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/TransformVariables.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/TransposeMVMatrix.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/UnityProjectorClipMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/UnityProjectorMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/UnityScaleMatrix.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/ViewMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/ViewProjectionMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/WorldToCameraMatrix.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/WorldToObjectMatrix.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/WorldToTangentMatrix.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/ColorSpaceDouble.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/FaceVariableNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/LODFadeNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/SwitchByFaceNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/WorldTransformParams.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/StaticSwitch.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/TauNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/TextureArrayNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/Vector2Node.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/Vector3Node.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/Vector4Node.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/CustomAddNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/CustomNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/DrawInfo.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/DynamicTypeNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/CameraDepthFade.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ComputeGrabScreenPosHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ComputeScreenPosHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DecodeDepthNormalNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DecodeFloatRGBAHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DecodeFloatRGHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DecodeLightmapHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DecodeViewNormalStereoHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DepthFade.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/DitheringNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/EncodeDepthNormalNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/EncodeFloatRGBAHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/EncodeFloatRGHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/EncodeViewNormalStereoHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/GammaToLinearNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/HelperParentNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/LinearToGammaNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/LuminanceHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ObjSpaceLightDirHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ObjSpaceViewDirHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ParallaxMappingNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ParallaxOcclusionMappingNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ParallaxOffsetHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/ShadeVertexLightsHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/SurfaceDepthNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/TriplanarNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/UnityObjToClipPosHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/UnityObjToViewPosHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/WorldSpaceLightDirHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/WorldSpaceViewDirHlpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/BlendOpsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/DesaturateOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/HSVToRGBNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/NoiseGeneratorNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/PosterizeNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/RGBToHSVNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/SimpleContrastOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/SimplexNoiseNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ImageEffects/TFHCGrayscale.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ISignalGenerator.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/ConditionalIfNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/KeywordSwitchNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCCompareEqual.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCCompareGreater.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCCompareGreaterEqual.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCCompareLower.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCCompareLowerEqual.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCCompareNotEqual.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCCompareWithRange.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCIf.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCStub.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/AdditionalDefinesHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/AdditionalIncludesHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/AdditionalPragmasHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/AdditionalSurfaceOptionsHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/BillboardOpHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/BlendOpsHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/CodeGenerationData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/ColorMaskHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/CustomTagsHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/DependenciesHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/FallbackPickerHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/FunctionInput.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/FunctionNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/FunctionOutput.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/FunctionSubtitle.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/FunctionSwitch.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/LogNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/MasterNodeDataCollector.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/OutlineOpHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/OutputNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/RenderingOptionsOpHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/RenderingPlatformsOpHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/StandardSurface.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/StencilBufferOpHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/TessellationOpHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/ZBufferOpHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/AppendNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/BreakToComponentsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/CustomExpressionNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/DynamicAppendNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/FresnelNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/GetLocalVarNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/LayeredBlendNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/MatrixFromVectors.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/PosFromTransformMatrix.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/RegisterLocalVarNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/RelayNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/RotateAboutAxisNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/SummedBlendNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/SwitchNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/SwizzleNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/ToggleSwitchNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/Transformation/ObjectToWorldTransfNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/Transformation/ParentTransfNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/Transformation/WorldToObjectTransfNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/VectorFromMatrixNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/WeightedAvgNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/WeightedBlendNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/WireNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeAttributes.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeRestrictions.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeUsageRegister.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeUtils.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/AbsOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ACosOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ASinOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ATan2OpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ATanOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/CeilOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ClampOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ClipNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ComponentMaskNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/CoshOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/CosOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/CrossProductOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/DdxOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/DdyOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/DegreesOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/DeterminantOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/DistanceOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/DotProductOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/Exp2OpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ExpOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/FloorOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/FmodOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/FractNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/FWidthOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/InverseOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/LengthOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/LerpOp.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/Log10OpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/Log2OpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/LogOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/MultipleInputOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/NegateNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/NormalizeNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/OneMinusNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/PowerNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/RadiansOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ReflectOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/RefractOpVec.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/RoundOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/RSqrtOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SaturateNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ScaleAndOffsetNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/ScaleNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SignOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SimplifiedFModOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SingleInputOp.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SinhOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SinOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SmoothstepOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/SqrtOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/StepOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TanhOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TanOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TFHCRemapNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TransformVectorOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TransposeOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TruncOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/VariablePortTypeOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ParentNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/ReordenatorNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SignalGeneratorNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SimpleNodes/SimpleAddOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SimpleNodes/SimpleDivideOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SimpleNodes/SimpleMaxOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SimpleNodes/SimpleMinOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SimpleNodes/SimpleMultiplyOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SimpleNodes/SimpleRemainderNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SimpleNodes/SimpleSubtractOpNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/ColorInputsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/GrabScreenPosition.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/LocalVertexPosNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/ScreenColorNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/ScreenDepthNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/ScreenPosInputsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/SurfaceShaderINParentNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/TexelSizeNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/UVCoordsParentNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/ViewDirInputsCoordNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/WorldNormalInputsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/WorldNormalVector.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/WorldPosInputsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/WorldReflectionVector.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/SurfaceShaderInputs/WorldReflInputsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/BlendNormalsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/HeightMapBlendNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/PannerNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/RotatorNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/SamplerNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/SubstanceSamplerNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TextureCoordinatesNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TexturePropertyNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TextureTransformNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TFHCFlipBookUVAnimation.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/TFHCPixelate.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/UnpackScaleNormalNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/VirtualTextureObject.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/UndoParentNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/BillboardNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/BitangentVertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/ColorVertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/NormalVertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/ObjectScaleNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/OutlineNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/PosVertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/TangentSignVertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/TangentVertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/Tessellation/DistanceBasedTessNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/Tessellation/EdgeLengthCullTessNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/Tessellation/EdgeLengthTessNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/Tessellation/TessellationParentNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/TexCoord1VertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/TexCoordVertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/VertexBinormalNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/VertexColorNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/VertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/VertexTangentNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/VertexToFragmentNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/PreMadeShaders.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalDefinesHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalDirectivesHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalIncludesHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalParentHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalPragmasHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateCodeSnippetBase.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateColorMaskModule.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateCullModeModule.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDataCollector.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDataParent.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDepthModule.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateFragmentDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateHelperFunctions.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateIdManager.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateInterpData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateLocalVarData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateLocalVarsNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMasterNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMenuItems.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateModuleHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateModuleParent.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateModulesData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPass.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassMasterNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateMultiPassSwitchNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateNodeParent.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatePass.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatePostProcessor.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatesBlendModule.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateShaderData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateShaderModelModule.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateShaderPropertyData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateShaderPropertyNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatesManager.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatesStencilBufferModule.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateSubShader.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateTagsModule.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateVertexData.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateVertexDataNode.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/ASETextureArrayCreator.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/CustomMaterialInspector.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/CustomShaderInspector.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/CustomTexture2DArrayInspector.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/EditorVariablesManager.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/GeneratorUtils.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/GenericMessage.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/InlineProperty.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/InvalidDataChecker.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/IOUtils.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/NodeExporterUtils.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/RectExtension.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/ShortcutsManager.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/TipsWindow.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/UIUtils.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/UndoUtils.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/UpperLeftWidgetHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Utils/WindowHelper.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Version/About.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Version/VersionInfo.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Wires/GLDraw.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Wires/InputPort.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Wires/OutputPort.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Wires/WireBezierReference.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Wires/WirePort.cs
+Assets/Addons/AmplifyShaderEditor/Plugins/Editor/Wires/WireReference.cs
+Assets/Addons/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs
+Assets/Addons/Oculus/AudioManager/Scripts/Audio/Editor/AudioManagerInspector.cs
+Assets/Addons/Oculus/AudioManager/Scripts/Audio/Editor/MinMaxPropertyDrawer.cs
+Assets/Addons/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs
+Assets/Addons/Oculus/AudioManager/Scripts/Audio/Editor/OSPPropsPropertyDrawer.cs
+Assets/Addons/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs
+Assets/Addons/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXRefPropertyDrawer.cs
+Assets/Addons/Oculus/AudioManager/Scripts/Utils/Editor/DrawerInspectorNote.cs
+Assets/Addons/Oculus/Avatar/Editor/AvatarMaterialEditor.cs
+Assets/Addons/Oculus/LipSync/Editor/OVRLipSyncTool.cs
+Assets/Addons/Oculus/LipSync/Editor/OVRNamedArrayPropertyDrawer.cs
+Assets/Addons/Oculus/Platform/Editor/GUIHelper.cs
+Assets/Addons/Oculus/Platform/Editor/OculusPlatformSettingsEditor.cs
+Assets/Addons/Oculus/Platform/Editor/OculusPluginUpdaterStub.cs
+Assets/Addons/Oculus/Platform/Editor/OculusStandalonePlatformResponse.cs
+Assets/Addons/Oculus/SampleFramework/Core/Locomotion/Scripts/Editor/TeleportTransitionWarpInspector.cs
+Assets/Addons/Oculus/SampleFramework/Editor/BuildAssetPackages.cs
+Assets/Addons/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs
+Assets/Addons/Oculus/Spatializer/Editor/ONSPAudioSourceEditor.cs
+Assets/Addons/Oculus/Spatializer/Editor/ONSPReflectionCustomGUI.cs
+Assets/Addons/SteamVR/Editor/SteamVR_Editor.cs
+Assets/Addons/SteamVR/Editor/SteamVR_Preferences.cs
+Assets/Addons/SteamVR/Editor/SteamVR_RenderModelEditor.cs
+Assets/Addons/SteamVR/Editor/SteamVR_Settings.cs
+Assets/Addons/SteamVR/Editor/SteamVR_SkyboxEditor.cs
+Assets/Addons/SteamVR/Editor/SteamVR_Update.cs
+Assets/Addons/VRTK/Examples/ExampleResources/SharedResources/Scripts/Editor/VRTKExample_FixSetupEditor.cs
+Assets/Addons/VRTK/Source/Editor/Attributes/MinMaxRangeDrawer.cs
+Assets/Addons/VRTK/Source/Editor/Attributes/ObsoleteInspectorDrawer.cs
+Assets/Addons/VRTK/Source/Editor/Attributes/SerializedPropertyExtensions.cs
+Assets/Addons/VRTK/Source/Editor/DataTypes/Limits2DDrawer.cs
+Assets/Addons/VRTK/Source/Editor/DataTypes/Vector3StateDrawer.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_AdaptiveQualityEditor.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_EditorUtilities.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_InteractHapticsEditor.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_NavMeshDataEditor.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_ObjectSetup.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_PolicyListEditor.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_RadialMenuEditor.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_SDKManagerEditor.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_SDKSetupEditor.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_SupportInfoWindow.cs
+Assets/Addons/VRTK/Source/Editor/VRTK_UpdatePrompt.cs
+Assets/Scripts/Editor/EditorHelper.cs
+Assets/Scripts/Editor/SceneBrowser/SceneBrowser.cs
